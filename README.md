@@ -7,6 +7,28 @@ __*Criando um ecossistema Hadoop totalmente gerenciado com Google Cloud Platform
 
 O desafio consiste em efetuar um processamento de dados utilizando o produto Dataproc do GCP. Esse processamento irá efetuar a contagem das palavras de um livro e informar quantas vezes cada palavra aparece no mesmo.
 
+------
+
+O que é `Google Cloud Platform(GCP)`?
+
+É um grupo de soluções e aplicações que ajuda a executar blocos de serviços em nuvem  com elevado desempenho, proteção e rapidez.
+
+A GCP pode funcionar em hardwares próprios de empresas. Os serviços são comercializados sob medida, sendo que você tem a liberdade de contratar apenas os recursos de seu interesse.
+
+É possível aumentar o controle no gerenciamento das operações, bem como obter saídas completas e protegidas para a cloud storage. Isso vale inclusive para armazenamentos customizados às necessidades de cada cliente.
+
+A Google Cloud Platform oferece facilidades para o desenvolvimento de aplicativos.
+ 
+O aplicativo de música Spotify utiliza a GCP para ofertar uma alta disponibilidade a seus usuários. Esse investimento permitiu um suporte informático que reúne atributos como eficácia, agilidade e exatidão de informações.
+
+------
+
+O que é `DataProc`?
+
+O Dataproc é um serviço totalmente gerenciado e altamente escalonável para executar o Apache Spark, o Apache Flink, o Presto e mais de 30 ferramentas e frameworks de código aberto. Use o Dataproc para modernização do data lake, ETL e ciência de dados segura, em escala global, totalmente integrada ao Google Cloud e com custos bem menores.
+
+------
+
 ### Etapas do Desafio
 
 1. Criar um bucket no Cloud Storage
@@ -16,6 +38,8 @@ O desafio consiste em efetuar um processamento de dados utilizando o produto Dat
 
 1. Utilizar o código em um cluster Dataproc, executando um Job do tipo PySpark chamando ```gs://{SEU_BUCKET}/contador.py```
 1. O Job irá gerar uma pasta no bucket chamada ```resultado```. Dentro dessa pasta o arquivo ```part-00000``` irá conter a lista de palavras e quantas vezes ela é repetida em todo o livro.
+
+------
 
 ### Entrega do Resultado
 
