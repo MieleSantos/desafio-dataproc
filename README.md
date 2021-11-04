@@ -38,6 +38,11 @@ Buckets contêm objetos que podem ser acessados pelos seus próprios métodos.
 
 Um intervalo sempre pertence ao grupo de proprietários da equipe do projeto .
 
+##### O que é `PySpark`?
+
+Apache Spark é escrito na linguagem de programação Scala. PySpark foi lançado para apoiar a colaboração do Apache Spark e Python, na verdade é uma API Python para Spark. Além disso, o PySpark ajuda a fazer a interface com conjuntos de dados distribuídos resilientes (RDDs) na linguagem de programação Apache Spark e Python. Isso foi conseguido tirando proveito da biblioteca Py4j. 
+PySpark LogoPy4J é uma biblioteca popular que é integrada ao PySpark e permite que o python faça interface dinâmica com objetos JVM.
+
 ------
 
 ### Etapas do Desafio
