@@ -10,7 +10,7 @@ O desafio consiste em efetuar um processamento de dados utilizando o produto Dat
 
 ------
 
-O que é `Google Cloud Platform(GCP)`?
+##### O que é `Google Cloud Platform(GCP)`?
 
 É um grupo de soluções e aplicações que ajuda a executar blocos de serviços em nuvem  com elevado desempenho, proteção e rapidez.
 
@@ -24,9 +24,19 @@ O aplicativo de música Spotify utiliza a GCP para ofertar uma alta disponibilid
 
 ------
 
-O que é `DataProc`?
+##### O que é `DataProc`?
 
 O Dataproc é um serviço totalmente gerenciado e altamente escalonável para executar o Apache Spark, o Apache Flink, o Presto e mais de 30 ferramentas e frameworks de código aberto. Use o Dataproc para modernização do data lake, ETL e ciência de dados segura, em escala global, totalmente integrada ao Google Cloud e com custos bem menores.
+
+------
+
+##### O que é um `Bucket`?
+O recurso Buckets representa um intervalo no Cloud Storage. Há um único namespace global compartilhado por todos os buckets.
+
+Buckets contêm objetos que podem ser acessados pelos seus próprios métodos. 
+ - Além da acl propriedade, os Buckets contêm bucketAccessControls , para uso na manipulação refinada dos controles de acesso de um balde existente.
+
+Um intervalo sempre pertence ao grupo de proprietários da equipe do projeto .
 
 ------
 
